@@ -14,6 +14,9 @@ public class Main {
         fillFloats();
         System.out.println("Floats array:");
         printFloats();
+
+        System.out.println("The product of the nums:")
+        multNums();
     }
 
     // Fills the nums array in reverse order (5, 4, 3, 2, 1)
@@ -43,6 +46,16 @@ public class Main {
         for (int i = 0; i < floats.length; ++i) {
             System.out.println(floats[i]);
         }
+    }
+
+    // Multiplies all the nums together
+    private static void multNums() {
+        int product = 1;
+        for (int i = 0; i < nums.length; ++i) {
+            product *= nums[i];
+        }
+        System.out.println(product);
+
     }
 
 }
