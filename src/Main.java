@@ -15,7 +15,7 @@ public class Main {
         System.out.println("Floats array:");
         printFloats();
 
-        System.out.println("The product of the nums:")
+        System.out.println("The product of the nums:");
         multNums();
     }
 
